@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: mydeplymentcont
-        image: intellipaatsai/prt-task:latest
+        image: reemar123/prt-task:latest
         ports:
         - containerPort: 80
