@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Git') {
             steps {
-                git url:'https://github.com/ReemaR123/Website-PRT-ORG/tree/patch-2' branch:'patch-2'
+                git url:'https://github.com/ReemaR123/Website-PRT-ORG/tree/patch-2', branch:'patch-2'
             }
         stage('Docker') {
             steps {
@@ -21,5 +21,6 @@ pipeline {
                 sh 'kubectl apply -f service.yaml'
             }
         }
+    }
     }
 }
