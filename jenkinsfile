@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Git') {
             steps {
-                git 'https://github.com/ReemaR123/Website-PRT-ORG.git'
+                git url:'https://github.com/ReemaR123/Website-PRT-ORG' branch:'patch-2'
             }
         stage('Docker') {
             steps {
