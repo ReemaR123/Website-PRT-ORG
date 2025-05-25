@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/example-org/sample-repo.git', branch: 'main'
+                git url: "https://github.com/ReemaR123/Website-PRT-ORG", branch: 'main'
             }
         }
     }
