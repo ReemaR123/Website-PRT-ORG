@@ -3,7 +3,7 @@ pipeline {
         DOCKERHUB_CREDENTIALS = credentials("dhubcred")
     }
     agent {
-        label 'Slave-2'
+        label 'prt-task'
     }
     stages {
         stage('Git') {
